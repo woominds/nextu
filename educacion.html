@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jorge Luis Batica">
+    <meta name="description" content="Mi curriculum Vitae">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Curriculum Vitae</title>
+  </head>
+<body>
+<header>
+  <svg>
+    <image xlink:href="img/logo.svg" width="80px" height="100px">
+  </svg>
+<h1>Curriculum Vitae</h1>
+  <h2>Datos Personales:</h2>
+    <h3>Nombre: Jorge Luis Batica</h3>
+    <h3>Fecha de Nacimiento: 10 de junio de 1981</h3>
+    <h3>Lugar de Nacimiento: Córdoba, Argentina</h3>
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="educacion.html">Educación</a>
+    <a href="experiencia.html">Experiencia</a>
+</nav>
+  <section>
+<h2>Educación</h2>
+<table border="1px">
+
+<tr>
+      <td>Año</td>
+      <td>Institución</td>
+      <td>Lugar</td>
+      <td>Culminó?</td>
+
+</tr>
+<tr>
+      <td>1998</td>
+      <td>Instituto San Esteban</td>
+      <td>Bariloche</td>
+      <td>SI</td>
+
+</tr>
+<tr>
+      <td>2004</td>
+      <td>Siglo XXI</td>
+      <td>Córdoba</td>
+      <td>SI</td>
+
+</tr>
+</table>
+<br/>
+  <form name="estudios" autocomplete="on">
+    <legend><h3>Agregar Estudios</h3></legend>
+    <label for="año">Año:</label>
+    <select name="años">
+      <option value="98">1998</option>
+      <option value="99">1999</option>
+      <option value="00">2000</option>
+      <option value="01">2001</option>
+    </select><br/>
+    <label for="insitucion">Institución</label>
+    <input type="text" name="institucion" required><br/>
+    <label for="lugar">Lugar</label>
+    <textarea name="lugar" rows="4" cols="60"required></textarea><br/>
+    <input type="submit" name="enviar">
+</form>
+</section>
+<footer>
+Mail:<a href="mailto:nextu@woominds.com">nextu@woominds.com</a> , Tel: +54 911 33950050, Barrio San Matias lote 1019, Buenos Aires, Argentina.
+</footer>
+</body>
+</html>
